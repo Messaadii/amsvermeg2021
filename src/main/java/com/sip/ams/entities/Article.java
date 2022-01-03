@@ -30,10 +30,9 @@ public class Article {
     public Article() {
     }
 
-    public Article(String label, float price, String picture) {
+    public Article(String label, float price) {
         this.price = price;
         this.label = label;
-        this.picture = picture;
     }
 
     public void setId(long id) {

@@ -62,4 +62,5 @@ public class Provider {
 	public String getAddress() {
 		return address;
 	}
+
 }
